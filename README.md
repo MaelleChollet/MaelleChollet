@@ -1,37 +1,62 @@
-👋 Hi, I'm Maelle
-🎓 Engineering Student - Immersive Technologies & AI  ·  🔍 Actively looking for an internship
-💡 I build immersive, interactive experiences — from WebXR prototypes to playable games
+<div align="center">
 
-🚀 Personal Projects
-🕶️ [WebAR](https://github.com/MaelleChollet/TPWebAR)
-Browser-based augmented reality experience:
+# Hi, I'm Maelle 👋
 
-* Marker tracking (Hiro + custom marker) with A-Frame and AR.js
-* Reactive DOM UI driven by markerFound / markerLost events
-* Runs directly in the browser, no installation required
+**Engineering Student - Immersive Technologies & AI**
+**VR / AR · 3D Development · Video Games**
+**Actively looking for an internship** — 5 months, November 2, 2026 to March 28, 2027
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maelle-chollet-b7632a293/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cholletmaelle018@gmail.com)
+
+</div>
+
+---
+
+### 💡 About me
+
+I build immersive, interactive experiences from WebXR prototypes to playable games.
+
+---
+
+## 🎓 Academic Projects
+
+### 🕶️ [WebAR](https://github.com/MaelleChollet/TPWebAR)
+Browser-based augmented reality experience with real-time marker tracking.
 
 `A-Frame` `AR.js` `WebXR` `JavaScript`
 
-🌐 [Web3D](https://github.com/MaelleChollet/TPWeb3D)
-Interactive 3D scene with real-time physics:
+---
 
-* Scene built with A-Frame (Three.js)
-* Rigidbody controller with ground raycasting
-* Physics engine: Cannon.js
-* Orbital camera in spherical coordinates (lerp)
+### 🌐 [Web3D](https://github.com/MaelleChollet/TPWeb3D)
+Interactive 3D scene with real-time physics and an orbital camera.
 
 `Three.js` `A-Frame` `Cannon.js` `JavaScript`
 
-🎓 Academic Projects
+---
 
-* [FlappyBird](https://github.com/MaelleChollet/FlappyBird) — Unity 2D clone: Rigidbody2D physics, state machine, object pooling, high score system.
-* [RunAndGun](https://github.com/MaelleChollet/RunAndGun) — 2D action-platformer under Unity: melee/ranged enemies, projectiles, health points wired to a reactive UI.
+### 🐦 [FlappyBird](https://github.com/MaelleChollet/FlappyBird)
+Unity 2D clone with a state machine and object pooling.
 
-🛠️ Skills
+`Unity` `C#` `2D`
+
+---
+
+### 🔫 [RunAndGun](https://github.com/MaelleChollet/RunAndGun)
+2D action-platformer under Unity with melee/ranged enemies and a reactive UI.
+
+`Unity` `C#` `2D` `Game Design`
+
+---
+
+## 🛠️ Skills
+
 `Python` `Java` `C` `C#` `Unity (2D/3D/VR)` `WebXR/WebAR`
 
-📫 Get in touch
+---
+
+## 📫 Get in touch
+
 Currently looking for an internship in immersive technologies (VR/AR), 3D development or video games — 5 months, November 2, 2026 to March 28, 2027.
 
-* 💼 LinkedIn: [linkedin.com/in/maelle-chollet-b7632a293](https://www.linkedin.com/in/maelle-chollet-b7632a293/)
-* 📧 Email: [cholletmaelle018@gmail.com](mailto:cholletmaelle018@gmail.com)
+📧 [cholletmaelle018@gmail.com](mailto:cholletmaelle018@gmail.com) · 📍 Villejuif, France
