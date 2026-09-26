@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maelle Chollet — CV</title>
+<meta name="description" content="Maelle Chollet, étudiante ingénieure en 4e année à l'Efrei Paris (filière IT, majeure Technologies Immersives & IA). Recherche un stage de 5 mois en technologies immersives (VR/AR, 3D, jeu vidéo) ou en IT, du 2 novembre 2026 au 28 mars 2027.">
+<meta name="author" content="Maelle Chollet">
+<link rel="alternate" hreflang="fr" href="index.html">
+<link rel="alternate" hreflang="en" href="en.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0b1446;
+    --blue: #1f4fbf;
+    --bg: #f6f7fb;
+    --card: #ffffff;
+    --text: #1c2236;
+    --muted: #5b6380;
+    --line: #dde1ee;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  a { color: var(--blue); }
+
+  /* Barre de navigation */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--navy);
+    padding: 14px 20px;
+  }
+  nav .wrap { display: flex; justify-content: space-between; align-items: center; }
+  nav .brand { color: #fff; font-family: "Fraunces", serif; font-size: 1.15rem; text-decoration: none; }
+  nav .links a { color: #cfd6ff; text-decoration: none; margin-left: 20px; font-size: .95rem; }
+  nav .links a:hover { color: #fff; }
+  nav .lang { color: #cfd6ff; margin-left: 20px; font-size: .95rem; }
+  nav .lang a { margin-left: 0; }
+  nav .lang strong { color: #fff; }
+
+  .wrap { max-width: 900px; margin: 0 auto; }
+
+  /* En-tête */
+  header { background: var(--navy); color: #fff; padding: 48px 20px 64px; }
+  header .wrap { display: flex; gap: 36px; align-items: center; flex-wrap: wrap; }
+  .photo {
+    width: 150px; height: 150px; border-radius: 50%;
+    object-fit: cover; border: 4px solid #fff; flex-shrink: 0;
+  }
+  h1 { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(2.2rem, 6vw, 3.2rem); line-height: 1.1; }
+  .subtitle { color: #9fb4ff; font-weight: 600; margin-top: 8px; }
+  .location { color: #cfd6ff; font-size: .95rem; margin-top: 4px; }
+
+  main { padding: 0 20px 48px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 28px;
+    margin-top: -32px;
+    box-shadow: 0 6px 24px rgba(11, 20, 70, .06);
+  }
+  .card + .card, section.card { margin-top: 24px; }
+  h2 {
+    font-family: "Fraunces", serif; font-weight: 600;
+    color: var(--navy); font-size: 1.6rem;
+    border-bottom: 2px solid var(--line);
+    padding-bottom: 6px; margin-bottom: 16px;
+  }
+  .card p + p { margin-top: 12px; }
+  .highlight {
+    background: #eef2ff; border-left: 4px solid var(--blue);
+    padding: 12px 16px; border-radius: 6px; margin-top: 16px;
+  }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .tags span {
+    background: var(--bg); border: 1px solid var(--line);
+    padding: 4px 12px; border-radius: 999px; font-size: .88rem; color: var(--muted);
+  }
+
+  .contact { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+  .btn {
+    display: inline-block; padding: 10px 18px; border-radius: 8px;
+    text-decoration: none; font-weight: 500; font-size: .95rem;
+    border: 1px solid var(--blue); color: var(--blue);
+  }
+  .btn.primary { background: var(--blue); color: #fff; }
+  .btn:hover { opacity: .85; }
+
+  .pdf-frame {
+    width: 100%; height: 1100px; border: 1px solid var(--line); border-radius: 8px;
+  }
+  .note { color: var(--muted); font-size: .9rem; margin-top: 10px; }
+
+  footer { text-align: center; color: var(--muted); font-size: .88rem; padding: 24px 20px 40px; }
+
+  @media (max-width: 600px) {
+    nav .links a { margin-left: 14px; }
+    header { padding: 32px 16px 56px; }
+    header .wrap { flex-direction: column; text-align: center; gap: 20px; }
+    main { padding: 0 16px 40px; }
+    .card { padding: 20px; }
+    .pdf-frame { height: 520px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">Maelle Chollet</a>
+    <div class="links">
+      <a href="#apropos">À propos</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+      <span class="lang"><strong>FR</strong> | <a href="en.html" hreflang="en">EN</a></span>
+    </div>
+  </div>
+</nav>
+
+<header id="top">
+  <div class="wrap">
+    <div>
+      <h1>Maelle Chollet</h1>
+      <p class="subtitle">Étudiante ingénieure Efrei Paris — Filière IT, majeure Technologies Immersives &amp; IA</p>
+      <p class="location">Villejuif (94), France · Recherche de stage</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section class="card" id="apropos" style="margin-top:-32px">
+      <h2>À propos</h2>
+      <p>Étudiante en 4e année à l'Efrei Paris, en filière IT et en majeure Technologies Immersives &amp; Intelligence Artificielle, je développe des expériences interactives en 3D, en réalité augmentée et en jeu vidéo, notamment avec Unity.</p>
+      <p>Mes expériences en bureau des méthodes et en bureau d'études m'ont appris la rigueur technique, et plus de quinze ans de natation en compétition m'ont appris la persévérance et l'esprit d'équipe.</p>
+      <div class="highlight">
+        <strong>Je recherche un stage de 5 mois</strong>, <strong>du 2 novembre 2026 au 28 mars 2027</strong>, de préférence en technologies immersives (VR/AR), développement 3D ou jeu vidéo. Je suis également ouverte aux stages en IT.
+      </div>
+      <div class="tags">
+        <span>Unity (2D/3D/VR)</span>
+        <span>C#</span>
+        <span>WebXR / WebAR</span>
+        <span>A-Frame · Three.js</span>
+        <span>Python</span>
+        <span>Java</span>
+        <span>C</span>
+        <span>Anglais B2</span>
+      </div>
+    </section>
+
+    <section class="card" id="cv">
+      <h2>CV</h2>
+      <iframe class="pdf-frame" src="CV_Maelle_Chollet.pdf" title="CV de Maelle Chollet"></iframe>
+      <p class="note">Si le PDF ne s'affiche pas, <a href="CV_Maelle_Chollet.pdf" target="_blank" rel="noopener">ouvre-le dans un nouvel onglet</a> ou <a href="CV_Maelle_Chollet.pdf" download>télécharge-le</a>.</p>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>N'hésitez pas à me contacter pour toute opportunité de stage.</p>
+      <div class="contact">
+        <a class="btn primary" href="mailto:cholletmaelle018@gmail.com">cholletmaelle018@gmail.com</a>
+        <a class="btn" href="tel:+33637191012">06 37 19 10 12</a>
+        <a class="btn" href="https://www.linkedin.com/in/maelle-chollet-b7632a293" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/MaelleChollet" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>Maelle Chollet · cholletmaelle018@gmail.com</footer>
+
+</body>
+</html>
